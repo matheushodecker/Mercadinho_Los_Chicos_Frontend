@@ -13,7 +13,8 @@
     "lint": "eslint . --fix"
   },
   "dependencies": {
-    "@passageidentity/passage-elements": "^2.0.9",
+    "@passageidentity/passage-auth": "^0.1.0-beta.28",
+    "@passageidentity/passage-elements": "^1.21.6",
     "@passageidentity/passage-js": "^4.1.2",
     "axios": "^1.11.0",
     "pinia": "^3.0.3",

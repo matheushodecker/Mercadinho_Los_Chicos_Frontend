@@ -43,7 +43,7 @@ import '@passageidentity/passage-elements/passage-login'
 const router = useRouter()
 const authStore = useAuthStore()
 
-const passageAppId = import.meta.env.VITE_PASSAGE_APP_ID || 'YOUR_PASSAGE_APP_ID_HERE'
+const passageAppId = import.meta.env.VITE_PASSAGE_APP_ID || '6MkkqUmQs4zNMPbhfyIqSfRu'
 const isLoading = ref(false)
 const errorMessage = ref('')
 

@@ -1,0 +1,18 @@
+# Ignore Vue.js files to prevent React hook rule conflicts
+src/views/*.vue
+src/components/*.vue
+*.vue
+
+# Ignore build outputs
+dist/
+build/
+node_modules/
+
+# Ignore configuration files
+*.config.js
+*.config.ts
+vite.config.js
+
+# Ignore generated files
+*.min.js
+*.bundle.js

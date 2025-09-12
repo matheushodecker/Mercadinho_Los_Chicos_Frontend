@@ -114,12 +114,7 @@
 
 <script setup>
 import { ref, onMounted } from 'vue'
-import {
-  DollarSign,
-  BarChart3,
-  ShoppingBag,
-  Calculator
-} from 'lucide-vue-next'
+import { DollarSign, BarChart3, ShoppingBag, Calculator } from 'lucide-vue-next'
 import { vendasService } from '@/services/vendas'
 
 const filtros = ref({

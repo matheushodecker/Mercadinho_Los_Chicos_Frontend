@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <Sidebar />
     <Header v-if="isAuthenticated" @logout="handleLogout" :user="user" />
     <router-view />
   </div>
@@ -10,6 +11,7 @@ import { computed, onMounted } from 'vue'
 import { useRouter, useRoute } from 'vue-router'
 import useAuthStore from '@/stores/auth'
 import Header from '@/components/Header.vue'
+import Sidebar from './components/Sidebar.vue'
 
 const router = useRouter()
 const route = useRoute()
